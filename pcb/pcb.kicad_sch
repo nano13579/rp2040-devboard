@@ -4521,16 +4521,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 116.84) (xy 71.12 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09262b22-1fd6-42a9-a6af-aa93663f091c")
-	)
-	(wire
-		(pts
 			(xy 33.02 129.54) (xy 36.83 129.54)
 		)
 		(stroke
@@ -4971,6 +4961,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 137.16) (xy 71.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475dbe3e-405b-453d-ba18-ccc996062fde")
+	)
+	(wire
+		(pts
 			(xy 256.54 97.79) (xy 260.35 97.79)
 		)
 		(stroke
@@ -5128,16 +5128,6 @@
 			(type default)
 		)
 		(uuid "5e92e707-59b6-41f8-8199-67b5f0bc13fa")
-	)
-	(wire
-		(pts
-			(xy 67.31 137.16) (xy 71.12 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fc6de32-e74a-41e8-975e-9ef6c95500a8")
 	)
 	(wire
 		(pts
@@ -5781,16 +5771,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 111.76) (xy 71.12 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acb6f9e0-036f-4ec9-8d3e-b07928714883")
-	)
-	(wire
-		(pts
 			(xy 48.26 36.83) (xy 48.26 38.1)
 		)
 		(stroke
@@ -6021,6 +6001,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 111.76) (xy 71.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf483f38-3662-4189-8cb2-25a90d84f33b")
+	)
+	(wire
+		(pts
 			(xy 33.02 139.7) (xy 36.83 139.7)
 		)
 		(stroke
@@ -6171,6 +6161,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 104.14) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da61dfec-bb4f-43d6-8c83-8ab94a1e14eb")
+	)
+	(wire
+		(pts
 			(xy 241.3 29.21) (xy 241.3 30.48)
 		)
 		(stroke
@@ -6198,16 +6198,6 @@
 			(type default)
 		)
 		(uuid "dd9c4f41-b023-446e-83af-71067f43f585")
-	)
-	(wire
-		(pts
-			(xy 67.31 93.98) (xy 71.12 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4f3e08-1a67-4d2c-9dac-4b6cc31b7d21")
 	)
 	(wire
 		(pts
@@ -6361,6 +6351,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 116.84) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9170178-6c2c-457f-9ea5-e46b821e38cd")
+	)
+	(wire
+		(pts
 			(xy 33.02 116.84) (xy 36.83 116.84)
 		)
 		(stroke
@@ -6371,13 +6371,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 104.14) (xy 71.12 104.14)
+			(xy 67.31 93.98) (xy 71.12 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fcc70561-137e-4993-994f-9e2432277e55")
+		(uuid "fcb346b7-40ac-47b7-bec2-3e7ee2519049")
 	)
 	(wire
 		(pts
@@ -8542,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "12 MHz"
 			(at 252.476 90.17 90)
 			(effects
 				(font
@@ -10358,7 +10358,7 @@
 				)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "33pF"
 			(at 223.52 88.138 90)
 			(effects
 				(font
@@ -10954,32 +10954,34 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x20")
-		(at 62.23 116.84 180)
+		(at 62.23 114.3 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c81dcb2-6fd9-449c-9be4-adb52e7ae1c3")
 		(property "Reference" "J3"
-			(at 62.23 85.09 0)
+			(at 59.69 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x20"
-			(at 62.23 87.63 0)
+			(at 59.69 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
-			(at 62.23 116.84 0)
+			(at 62.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10988,7 +10990,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 116.84 0)
+			(at 62.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +10999,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 62.23 116.84 0)
+			(at 62.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11426,7 +11428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVS"
+		(property "Value" "W25Q16JVZPIQ TR"
 			(at 269.24 48.2599 0)
 			(effects
 				(font
@@ -11435,7 +11437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "W25Q16JVUXIQ_TR:IC_W25Q16JVUXIQ_TR"
 			(at 257.81 24.13 0)
 			(effects
 				(font
@@ -11917,7 +11919,7 @@
 				)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "33pF"
 			(at 222.25 99.314 90)
 			(effects
 				(font

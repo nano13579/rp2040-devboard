@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "W25Q16JVUXIQ_TR")(type "KiCad")(uri "C:/Users/ghata/myProjects/RP2040-devboard/W25Q16JVUXIQ_TR/W25Q16JVUXIQ_TR.kicad_sym")(options "")(descr ""))
+)
