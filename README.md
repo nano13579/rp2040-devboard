@@ -1,12 +1,14 @@
 # an rp2040 dev board
 
-This is a dev board based upon the RP2040 microcontroller, a 32-bit dual-core ARM Cortex-M0+. This board comes with flash memory, a 12 MHz crystal oscillator, a USB-C for power with a Low-Dropout Regulator, and light sensing capabilites. 
+This is a dev board based upon the RP2040 microcontroller, a 32-bit dual-core ARM Cortex-M0+. This board comes with 16mb of flash memory, a 12 MHz crystal oscillator, a USB-C for power with a Low-Dropout Regulator, and light sensing capabilites enabled using a TSL25911FN. I made this because I was interested in the use of various components for general RP2040 based boards. This was also my first time making a microcontoller in general, and I learned much about the purpose of various IC's and passive components in the process! 
 
 ![Schematic:](images/schematic.png)
 
 ![PCB:](images/pcb.png)
 
-![Render:](images/3d-render.png)
+![Render:](images/render1.png)
+
+![Render:](images/render2.png)
 
 | Item | Quantity | Product Link | Cost |
 |------|----------|--------------|------|
@@ -29,6 +31,6 @@ This is a dev board based upon the RP2040 microcontroller, a 32-bit dual-core AR
 | USB-C Receptacle | 1 | [link](https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948) | $0.17 |
 | Switch | 1 | [link](https://jlcpcb.com/partdetail/CK-KMR241GLFS/C221682) | $0.81 |
 
-Total Parts Cost + PCBA + JLC Shipping = $13.83 + $3.20 + $24.26 = ($33.51 + taxes)*
+Total Parts Cost + PCBA + JLC Shipping = $13.83 + $3.20 + $24.26 = ($33.51 + taxes + feeder fees)*
 
 *no need for grant - paying everything out of pocket

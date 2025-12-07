@@ -9386,6 +9386,18 @@
 		(layer "Edge.Cuts")
 		(uuid "d5567e71-893c-43b4-a165-d90bfe5df009")
 	)
+	(gr_text "nani board\n"
+		(at 209.79 108.64 90)
+		(layer "F.SilkS")
+		(uuid "2089546b-102f-4deb-a882-2a71db380ce1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 201.712948 90.76)
 		(end 201.73795 90.785002)
